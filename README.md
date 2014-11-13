@@ -36,74 +36,75 @@ accumulator<br>
 This program will sum the contents of an array stored in memory starting at memory cell 50.
 </p>
 <p>
-STOR 22
-LOAD 21 //Change starting number at line 21
-MODA 3
-LOAD 
-ADD 22
-STOR 22 //Stores sum
-LOAD 19
-SUB 20
-STOR 19
-JMPZ 16
-LOAD 21
-ADD 20
-STOR 21
-WRIT 22
-MODA 3
-JUMP 3
-HALT
-
-
-20
-1
-50
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
+STOR 22<br>
+LOAD 21 //Change starting number at line 21<br>
+MODA 3<br>
+LOAD <br>
+ADD 22<br>
+STOR 22 //Stores sum<br>
+LOAD 19<br>
+SUB 20<br>
+STOR 19<br>
+JMPZ 16<br>
+LOAD 21<br>
+ADD 20<br>
+STOR 21<br>
+WRIT 22<br>
+MODA 3<br>
+JUMP 3<br>
+HALT<br>
+<br>
+<br>
+20<br>
+1<br>
+50<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+10<br>
+11<br>
+12<br>
+13<br>
+14<br>
+15<br>
+16<br>
+17<br>
+18<br>
+19<br>
+20<br>
 </p>
