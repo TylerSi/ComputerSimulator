@@ -1,7 +1,8 @@
 ComputerSimulator
 =================
 
-Assembly computer simulator
+<p>Assembly computer simulator</p>
+<p>This desktop application was created using Visual C#.  It was created as a class project and simulates a computer with an accumulator and various registers.  This computer is limited to 100 memory cells and will read, store, and write information accordingly.  Please review the samples below.</p>
 
 <h4>Commands</h4>
 <hr>
