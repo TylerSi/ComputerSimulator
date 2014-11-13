@@ -18,7 +18,7 @@ result in accumulator<br>
 result in accumulator<br>
 <b>MULT</b> Multiply a word from a specific location in memory by the word in the accumulator,
 result in accumulator<br>
-<b>JUMP Branch to a specific location in memory<br>
+<b>JUMP</b> Branch to a specific location in memory<br>
 <b>JMPN</b> if the accumulator is negative, branch to a specific location in memory<br>
 <b>JMPZ</b> if the accumulator is zero, branch to a specific location in memory<br>
 <b>DUMP</b> Show the contents of all registers and memory to the screen<br>
