@@ -28,3 +28,82 @@ accumulator<br>
 <b>HALT</b> Halt. The program has completed its task.
 </p>
 <hr>
+
+<h4>Sample Programs</h4>
+<hr>
+<h5>Sum Array</h5>
+<p>
+This program will sum the contents of an array stored in memory starting at memory cell 50.
+</p>
+<p>
+STOR 22
+LOAD 21 //Change starting number at line 21
+MODA 3
+LOAD 
+ADD 22
+STOR 22 //Stores sum
+LOAD 19
+SUB 20
+STOR 19
+JMPZ 16
+LOAD 21
+ADD 20
+STOR 21
+WRIT 22
+MODA 3
+JUMP 3
+HALT
+
+
+20
+1
+50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</p>
