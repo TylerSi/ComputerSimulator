@@ -1,0 +1,3 @@
+READ 10
+LOAD 10
+TEST 5
