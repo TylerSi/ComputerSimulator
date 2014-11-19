@@ -111,7 +111,6 @@ HALT<br>
 <hr>
 
 <h5>nth Fibonacci Number</h5>
-<br>
 <p>This program will input from the user and output that Fibonacci number.</p>
 READ 50<br>
 LOAD 50<br>
