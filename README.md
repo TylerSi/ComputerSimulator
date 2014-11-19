@@ -109,3 +109,72 @@ HALT<br>
 20<br>
 </p>
 <hr>
+
+<h5>nth Fibonacci Number</h5>
+<br>
+<p>This program will input from the user and output that Fibonacci number.</p>
+READ 50<br>
+LOAD 50<br>
+JMPZ 60 //if 0 jmp writ 0<br>
+SUB 52 //subtract 2<br>
+JMPZ 62 //jmp writ 1<br>
+JMPN 62 //jmp writ 1<br>
+LOAD 50<br>
+SUB 52 //sub 2<br>
+STOR 50 //stor counter start<br>
+LOAD 53<br>
+ADD 54<br>
+STOR 53<br>
+STOR 55<br>
+LOAD 50<br>
+SUB 51<br>
+STOR 50<br>
+JMPZ 60<br>
+LOAD 54<br>
+ADD 53<br>
+STOR 54<br>
+STOR 55<br>
+LOAD 50<br>
+SUB 51<br>
+STOR 50<br>
+JMPZ 60<br>
+JUMP 9<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+1<br>
+2<br>
+1<br>
+1<br>
+0<br>
+<br>
+<br>
+<br>
+<br>
+WRIT 55 //60<br>
+HALT<br>
+WRIT 51 //62<br>
+HALT<br>
+
