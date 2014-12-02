@@ -111,7 +111,7 @@ HALT<br>
 <hr>
 
 <h5>nth Fibonacci Number</h5>
-<p>This program will input from the user and output that Fibonacci number.</p>
+<p>This program will take input from the user and output that Fibonacci number.</p>
 READ 50<br>
 LOAD 50<br>
 JMPZ 60 //if 0 jmp writ 0<br>
@@ -176,4 +176,26 @@ WRIT 55 //60<br>
 HALT<br>
 WRIT 51 //62<br>
 HALT<br>
-
+<h5>GCD: Euclid's Algorithm</h5>
+<p>This program will take two numbers from the user (assumes first > second) and will calculate the GCD.</p>
+READ 50 //m<br>
+READ 51 //n<br>
+LOAD 50 //m<br>
+DIV 51 //n<br>
+STOR 30 //floor storage<br>
+MULT 51 //n<br>
+STOR 31 //mult store<br>
+LOAD 50 //m<br>
+SUB 31<br>
+STOR 29 //mod store<br>
+JMPZ 19<br>
+LOAD 51<br>
+STOR 50<br>
+LOAD 29<br>
+STOR 51<br>
+JMPZ 16<br>
+JUMP 2<br>
+WRIT 50<br>
+HALT<br>
+WRIT 51<br>
+HALT<br>
