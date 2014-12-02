@@ -176,6 +176,9 @@ WRIT 55 //60<br>
 HALT<br>
 WRIT 51 //62<br>
 HALT<br>
+
+<hr>
+
 <h5>GCD: Euclid's Algorithm</h5>
 <p>This program will take two numbers from the user (assumes first > second) and will calculate the GCD.</p>
 READ 50 //m<br>
