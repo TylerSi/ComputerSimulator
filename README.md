@@ -1,4 +1,4 @@
-ComputerSimulator
+Computer Simulator
 =================
 
 <p>Assembly computer simulator</p>
